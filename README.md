@@ -1,2 +1,2 @@
 # muybridge
-Max MSP Visuals
+Max MSP Visuals.
