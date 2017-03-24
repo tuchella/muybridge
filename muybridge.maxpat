@@ -6272,7 +6272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 98.5, 37.0, 175.0, 22.0 ],
+					"patching_rect" : [ 98.5, 14.0, 45.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 273.5, 188.0, 23.0 ],
 					"style" : ""
