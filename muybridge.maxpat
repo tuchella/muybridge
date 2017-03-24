@@ -38,6 +38,99 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1200.833496, 206.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 1359.0, 215.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "emb.number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-164",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1110.833496, 206.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 1254.5, 209.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "emb.number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-162",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1020.833496, 206.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 1110.0, 218.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "emb.number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-161",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1360.0, 398.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-159",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1360.0, 491.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-157",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1419.0, 398.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1360.0, 449.0, 78.0, 22.0 ],
+					"style" : "",
+					"text" : "emb.number"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-136",
 					"maxclass" : "flonum",
@@ -45,7 +138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 893.0, 207.0, 50.0, 22.0 ],
+					"patching_rect" : [ 746.333496, 206.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 410.5, 40.0, 22.0 ],
 					"style" : ""
@@ -59,7 +152,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1028.0, 490.0, 69.0, 22.0 ],
+					"patching_rect" : [ 1022.0, 544.5, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "r huerange"
 				}
@@ -71,7 +164,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1565.0, 235.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1434.333496, 234.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "s huerange"
 				}
@@ -84,7 +177,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 928.0, 773.0, 67.0, 22.0 ],
+					"patching_rect" : [ 922.0, 827.5, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "r imgcount"
 				}
@@ -96,7 +189,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 945.0, 207.0, 69.0, 22.0 ],
+					"patching_rect" : [ 798.333496, 249.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "s imgcount"
 				}
@@ -109,7 +202,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1276.0, 679.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1270.0, 733.5, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "r invert"
 				}
@@ -121,7 +214,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1426.833374, 207.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1296.16687, 249.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "s invert"
 				}
@@ -134,7 +227,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1098.833374, 118.0, 38.0, 22.0 ],
+					"patching_rect" : [ 952.16687, 98.0, 38.0, 22.0 ],
 					"presentation_rect" : [ 1441.0, 201.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r hue"
@@ -148,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1098.833374, 235.0, 60.0, 20.0 ],
+					"patching_rect" : [ 952.16687, 277.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.5, 511.5, 60.0, 20.0 ],
 					"style" : "",
@@ -166,7 +259,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1098.833374, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 952.16687, 154.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 501.5, 40.0, 40.0 ],
 					"size" : 256.0,
@@ -181,7 +274,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 935.0, 620.0, 38.0, 22.0 ],
+					"patching_rect" : [ 929.0, 674.5, 38.0, 22.0 ],
 					"style" : "",
 					"text" : "r hue"
 				}
@@ -193,7 +286,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 912.0, 566.0, 40.0, 22.0 ],
+					"patching_rect" : [ 906.0, 620.5, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "s hue"
 				}
@@ -205,7 +298,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1167.5, 207.0, 73.0, 22.0 ],
+					"patching_rect" : [ 1020.833496, 249.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "s saturation"
 				}
@@ -218,7 +311,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1074.375, 620.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1068.375, 674.5, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "r saturation"
 				}
@@ -230,7 +323,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1154.75, 686.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1148.75, 740.5, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "s done"
 				}
@@ -243,7 +336,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1154.75, 620.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1148.75, 674.5, 61.0, 22.0 ],
 					"presentation_rect" : [ 1570.0, 357.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r duration"
@@ -256,7 +349,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1026.833374, 207.0, 63.0, 22.0 ],
+					"patching_rect" : [ 880.16687, 249.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s duration"
 				}
@@ -269,7 +362,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 970.0, 490.0, 45.0, 22.0 ],
+					"patching_rect" : [ 964.0, 544.5, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "r done"
 				}
@@ -282,7 +375,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1312.833374, 620.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1306.833374, 674.5, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "r duration"
 				}
@@ -295,7 +388,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1380.666626, 620.0, 73.0, 22.0 ],
+					"patching_rect" : [ 1374.666626, 674.5, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "r brightness"
 				}
@@ -307,7 +400,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1257.5, 207.0, 75.0, 22.0 ],
+					"patching_rect" : [ 1110.833496, 249.0, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "s brightness"
 				}
@@ -320,7 +413,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1460.5, 620.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1454.5, 674.5, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "r contrast"
 				}
@@ -332,7 +425,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1347.5, 207.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1200.833496, 249.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "s contrast"
 				}
@@ -346,7 +439,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 679.5, 300.0, 63.0, 22.0 ],
+					"patching_rect" : [ 673.5, 354.5, 63.0, 22.0 ],
 					"presentation_rect" : [ 931.5, 40.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r colour_c"
@@ -2314,7 +2407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1125.375, 901.0, 111.0, 22.0 ],
+					"patching_rect" : [ 1119.375, 955.5, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.window emb_ctx"
 				}
@@ -2327,7 +2420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 808.0, 805.0, 139.0, 22.0 ],
+					"patching_rect" : [ 802.0, 859.5, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "emb.jit.multiply emb_ctx"
 				}
@@ -2339,7 +2432,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 274.0, 84.833496, 20.0 ],
+					"patching_rect" : [ 645.0, 328.5, 84.833496, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 46.25, 328.0, 61.0, 34.0 ],
@@ -2356,7 +2449,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 651.0, 300.0, 24.0, 24.0 ],
+					"patching_rect" : [ 645.0, 354.5, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 325.0, 40.0, 40.0 ],
 					"style" : ""
@@ -2370,7 +2463,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 391.0, 47.5, 22.0 ],
+					"patching_rect" : [ 645.0, 445.5, 47.5, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -2462,7 +2555,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 808.0, 300.0, 63.0, 22.0 ],
+					"patching_rect" : [ 802.0, 354.5, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "r image_c"
 				}
@@ -2476,7 +2569,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 37.0, 79.0, 22.0 ],
+					"patching_rect" : [ 798.333496, 36.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "r imgcount_c"
 				}
@@ -2489,7 +2582,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 945.0, 118.0, 67.0, 22.0 ],
+					"patching_rect" : [ 798.333496, 98.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "drunk 40 6"
 				}
@@ -2503,7 +2596,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1167.5, 37.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1020.833496, 36.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "r colour_c"
 				}
@@ -2604,7 +2697,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 808.0, 994.0, 298.0, 21.0 ],
+					"patching_rect" : [ 802.0, 1048.5, 298.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -2616,7 +2709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 924.0, 286.0, 60.0, 22.0 ],
+					"patching_rect" : [ 918.0, 340.5, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -3219,7 +3312,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 808.0, 350.0, 135.0, 22.0 ],
+					"patching_rect" : [ 802.0, 404.5, 135.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3242,7 +3335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 924.0, 321.0, 346.0, 23.0 ],
+					"patching_rect" : [ 918.0, 375.5, 346.0, 23.0 ],
 					"style" : "",
 					"text" : "prefix \"C:/Users/lt/Documents/Max 7/Projects/vis0/videos\""
 				}
@@ -3527,7 +3620,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 912.0, 536.0, 135.0, 22.0 ],
+					"patching_rect" : [ 906.0, 590.5, 135.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3548,7 +3641,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1565.0, 207.0, 42.0, 22.0 ],
+					"patching_rect" : [ 1434.333496, 206.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "pak i i"
 				}
@@ -3942,7 +4035,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 994.0, 653.0, 179.75, 22.0 ],
+					"patching_rect" : [ 988.0, 707.5, 179.75, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4407,7 +4500,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1245.0, 653.0, 222.5, 22.0 ],
+					"patching_rect" : [ 1239.0, 707.5, 222.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4579,7 +4672,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1245.0, 708.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1239.0, 762.5, 50.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4599,7 +4692,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 235.0, 65.0, 20.0 ],
+					"patching_rect" : [ 802.333496, 277.0, 65.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.5, 382.5, 54.0, 20.0 ],
 					"style" : "",
@@ -4613,7 +4706,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 748.833496, 274.0, 51.833496, 20.0 ],
+					"patching_rect" : [ 742.833496, 328.5, 51.833496, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.0, 382.5, 60.0, 20.0 ],
 					"style" : "",
@@ -4628,7 +4721,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 679.5, 350.0, 62.0, 22.0 ],
+					"patching_rect" : [ 673.5, 404.5, 62.0, 22.0 ],
 					"style" : "",
 					"text" : "position 0"
 				}
@@ -4640,7 +4733,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1426.833374, 235.0, 49.0, 20.0 ],
+					"patching_rect" : [ 1296.16687, 277.0, 49.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.5, 460.0, 42.0, 20.0 ],
 					"style" : "",
@@ -4656,7 +4749,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1426.833374, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 1296.16687, 154.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 450.0, 40.0, 40.0 ],
 					"style" : ""
@@ -4670,7 +4763,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 1167.5, 118.0, 199.0, 22.0 ],
+					"patching_rect" : [ 1020.833496, 98.0, 199.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b b"
 				}
@@ -4682,7 +4775,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1347.5, 235.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1200.833496, 277.0, 63.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.0, 561.0, 59.0, 20.0 ],
 					"style" : "",
@@ -4696,7 +4789,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1257.5, 235.0, 75.0, 20.0 ],
+					"patching_rect" : [ 1110.833496, 277.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.0, 511.5, 68.0, 20.0 ],
 					"style" : "",
@@ -4713,7 +4806,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1347.5, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 1238.833496, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.5, 551.0, 40.0, 40.0 ],
 					"size" : 100.0,
@@ -4730,7 +4823,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1257.5, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 1148.833496, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.5, 501.5, 40.0, 40.0 ],
 					"size" : 100.0,
@@ -4744,7 +4837,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1026.833374, 235.0, 63.0, 20.0 ],
+					"patching_rect" : [ 880.16687, 277.0, 63.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.0, 460.0, 59.0, 20.0 ],
 					"style" : "",
@@ -4759,7 +4852,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1167.5, 235.0, 73.0, 20.0 ],
+					"patching_rect" : [ 1020.833496, 277.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.5, 561.0, 64.5, 20.0 ],
 					"style" : "",
@@ -4777,7 +4870,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1026.833374, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 880.16687, 154.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.5, 450.0, 40.0, 40.0 ],
 					"size" : 10.0,
@@ -4795,7 +4888,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 808.0, 1019.0, 80.0, 35.0 ],
+					"patching_rect" : [ 802.0, 1073.5, 80.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -4927,7 +5020,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 826.5, 653.0, 127.5, 22.0 ],
+					"patching_rect" : [ 820.5, 707.5, 127.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4949,7 +5042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1167.5, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 1058.833496, 151.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 551.0, 40.0, 40.0 ],
 					"size" : 256.0,
@@ -4964,7 +5057,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 808.0, 746.0, 191.0, 22.0 ],
+					"patching_rect" : [ 802.0, 800.5, 191.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.hsl2rgb"
 				}
@@ -4977,7 +5070,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 808.0, 713.0, 74.5, 22.0 ],
+					"patching_rect" : [ 802.0, 767.5, 74.5, 22.0 ],
 					"style" : "",
 					"text" : "jit.pack 4"
 				}
@@ -4990,7 +5083,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 808.0, 566.0, 93.0, 22.0 ],
+					"patching_rect" : [ 802.0, 620.5, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.unpack 4"
 				}
@@ -5003,7 +5096,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 808.0, 536.0, 62.0, 22.0 ],
+					"patching_rect" : [ 802.0, 590.5, 62.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.rgb2hsl"
 				}
@@ -5017,7 +5110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 808.0, 838.0, 298.0, 154.0 ],
+					"patching_rect" : [ 802.0, 892.5, 298.0, 154.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 127.0, 231.0, 148.0 ]
 				}
@@ -5031,7 +5124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 808.0, 469.0, 93.0, 50.0 ],
+					"patching_rect" : [ 802.0, 523.5, 93.0, 50.0 ],
 					"style" : "",
 					"text" : "jit.movie @loopreport 1 @vol 0."
 				}
@@ -5046,7 +5139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 945.0, 155.0, 40.0, 40.0 ],
+					"patching_rect" : [ 798.333496, 154.0, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 372.5, 40.0, 40.0 ],
 					"size" : 41.0,
@@ -5065,7 +5158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 748.833496, 300.0, 40.0, 40.0 ],
+					"patching_rect" : [ 742.833496, 354.5, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.5, 372.5, 40.0, 40.0 ],
 					"size" : 100.0,
@@ -5080,7 +5173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 748.833496, 391.0, 57.0, 22.0 ],
+					"patching_rect" : [ 742.833496, 445.5, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "rate $1"
 				}
@@ -5095,7 +5188,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 748.833496, 350.0, 50.0, 22.0 ],
+					"patching_rect" : [ 742.833496, 404.5, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.5, 410.5, 40.0, 22.0 ],
 					"style" : ""
@@ -6026,7 +6119,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-					"patching_rect" : [ 1167.5, 68.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1020.833496, 67.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -6040,7 +6133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.375, 865.0, 87.0, 23.0 ],
+					"patching_rect" : [ 1119.375, 919.5, 87.0, 23.0 ],
 					"style" : "",
 					"text" : "fullscreen $1"
 				}
@@ -6054,7 +6147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1125.375, 838.0, 20.0, 20.0 ],
+					"patching_rect" : [ 1119.375, 892.5, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -6175,7 +6268,7 @@
 						"bgfillcolor_proportion" : 0.39
 					}
 ,
-					"patching_rect" : [ 1147.875, 838.0, 42.0, 23.0 ],
+					"patching_rect" : [ 1141.875, 892.5, 42.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -6383,7 +6476,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1479.5, 152.0, 213.0, 46.0 ],
+					"patching_rect" : [ 1348.833496, 151.0, 213.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 596.0, 213.0, 46.0 ],
 					"size" : 255.0,
@@ -6399,7 +6492,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1481.5, 156.5, 209.0, 37.0 ],
+					"patching_rect" : [ 1350.833496, 155.5, 209.0, 37.0 ],
 					"pic" : "C:/Users/lt/Documents/Max 7/Projects/vis0/hsl.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 600.5, 209.0, 37.0 ]
@@ -6415,7 +6508,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 597.25, 0.0, 127.333496, 269.0 ],
+					"patching_rect" : [ 597.25, 0.0, 132.583496, 320.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -6431,7 +6524,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 716.583496, -1.0, 1007.5, 270.0 ],
+					"patching_rect" : [ 717.583496, -1.0, 1006.5, 321.0 ],
 					"presentation_rect" : [ 719.25, -4.0, 0.0, 0.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
@@ -6739,7 +6832,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
+					"destination" : [ "obj-162", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-133", 0 ]
@@ -6796,7 +6889,7 @@
 					"destination" : [ "obj-191", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 873.0, 602.0, 1254.5, 602.0 ],
+					"midpoints" : [ 867.0, 656.5, 1248.5, 656.5 ],
 					"source" : [ "obj-142", 3 ]
 				}
 
@@ -6806,7 +6899,7 @@
 					"destination" : [ "obj-197", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 854.5, 614.0, 1003.5, 614.0 ],
+					"midpoints" : [ 848.5, 668.5, 997.5, 668.5 ],
 					"source" : [ "obj-142", 2 ]
 				}
 
@@ -6843,7 +6936,7 @@
 					"destination" : [ "obj-219", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 817.5, 528.0, 921.5, 528.0 ],
+					"midpoints" : [ 811.5, 582.5, 915.5, 582.5 ],
 					"source" : [ "obj-147", 0 ]
 				}
 
@@ -6872,6 +6965,60 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-159", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-154", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-164", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-165", 0 ]
 				}
 
 			}
@@ -6952,7 +7099,7 @@
 					"destination" : [ "obj-147", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 817.5, 1017.0, 795.0, 1017.0, 795.0, 465.0, 817.5, 465.0 ],
+					"midpoints" : [ 811.5, 1071.5, 789.0, 1071.5, 789.0, 519.5, 811.5, 519.5 ],
 					"source" : [ "obj-227", 0 ]
 				}
 
@@ -7005,7 +7152,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
+					"destination" : [ "obj-162", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
@@ -7014,19 +7161,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-164", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-31", 2 ]
+					"source" : [ "obj-31", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
+					"destination" : [ "obj-165", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-31", 1 ]
+					"source" : [ "obj-31", 2 ]
 				}
 
 			}
@@ -7122,7 +7269,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-165", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
@@ -7131,7 +7278,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
+					"destination" : [ "obj-164", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
@@ -7447,6 +7594,12 @@
 			}
 , 			{
 				"name" : "equalizer.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/muybridge",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "emb.number.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/muybridge",
 				"type" : "JSON",
 				"implicit" : 1
