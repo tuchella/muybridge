@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1248.0, 749.0 ],
+		"rect" : [ 42.0, 85.0, 964.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 888.0, 821.5, 79.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 165.0, 328.0, 78.0, 34.0 ],
+					"style" : "",
+					"text" : "keep aspect ratio"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 862.0, 827.5, 24.0, 24.0 ],
-					"style" : ""
+					"presentation" : 1,
+					"presentation_rect" : [ 120.5, 325.0, 40.0, 40.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "toggle",
+							"parameter_shortname" : "toggle",
+							"parameter_type" : 3,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"style" : "",
+					"varname" : "toggle"
 				}
 
 			}
@@ -407,7 +438,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 922.0, 827.5, 67.0, 22.0 ],
+					"patching_rect" : [ 999.0, 827.5, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "r imgcount"
 				}
@@ -6701,6 +6732,7 @@
 			"obj-55::obj-16" : [ "number[1]", "number", 0 ],
 			"obj-8::obj-37" : [ "speed[1]", "speed", 0 ],
 			"obj-8::obj-48" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-14" : [ "toggle", "toggle", 0 ],
 			"obj-8::obj-38" : [ "speed[2]", "speed", 0 ],
 			"obj-8::obj-29" : [ "pictctrl[119]", "pictctrl[3]", 0 ],
 			"obj-55::obj-5" : [ "number", "number", 0 ],
